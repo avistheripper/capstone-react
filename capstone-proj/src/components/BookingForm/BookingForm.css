@@ -1,0 +1,60 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    background-color: #495e5791;
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.vw-50 {
+    width: 50vw;
+}
+
+.centered {
+    margin: 0 auto;
+}
+
+.label {
+    font-size: 14px;
+}
+
+.banner {
+    background-color: #495E57;
+    color: white;
+    padding: 48px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.form-container {
+    padding: 24px;
+    margin: 24px 48px;
+}
+
+.input-container {
+    padding-top: 24px;
+    position: relative;
+}
+.label {
+    position: absolute;
+    top: 0;
+}
+input, select {
+    margin-top: 6px;
+}
+
+.row {
+    padding: 0 12px;
+    gap: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.submit {
+    width: 100%;
+}
+
+input, select {
+    width: 250px;
+}
